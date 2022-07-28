@@ -1,0 +1,33 @@
+2022-07-27 01:15:08 [org.springframework.boot.StartupInfoLogger:55] - Starting DemoApplication using Java 11.0.15 on 5b30d58ce0f6 with PID 1488 (/home/demo/target/classes started by root in /home/demo)
+2022-07-27 01:15:08 [org.springframework.boot.SpringApplication:634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-27 01:15:10 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 8686 (http)
+2022-07-27 01:15:10 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-8686"]
+2022-07-27 01:15:10 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2022-07-27 01:15:10 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-27 01:15:10 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2022-07-27 01:15:10 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1738 ms
+2022-07-27 01:15:11 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-8686"]
+2022-07-27 01:15:11 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 8686 (http) with context path '/demo'
+2022-07-27 01:15:11 [org.springframework.boot.StartupInfoLogger:61] - Started DemoApplication in 3.436 seconds (JVM running for 3.825)
+2022-07-27 02:06:48 [org.springframework.boot.StartupInfoLogger:55] - Starting DemoApplication using Java 11.0.15 on d27ca80dc1fb with PID 5415 (/home/demo/target/classes started by root in /home/demo)
+2022-07-27 02:06:48 [org.springframework.boot.SpringApplication:634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-27 02:06:49 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 8686 (http)
+2022-07-27 02:06:49 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-8686"]
+2022-07-27 02:06:49 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2022-07-27 02:06:49 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-27 02:06:49 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2022-07-27 02:06:49 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 1686 ms
+2022-07-27 02:06:50 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-8686"]
+2022-07-27 02:06:50 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 8686 (http) with context path '/demo'
+2022-07-27 02:06:50 [org.springframework.boot.StartupInfoLogger:61] - Started DemoApplication in 3.448 seconds (JVM running for 3.839)
+2022-07-27 02:25:54 [org.springframework.boot.StartupInfoLogger:55] - Starting DemoApplication using Java 11.0.15 on be7d646bd713 with PID 1661 (/home/demo/target/classes started by root in /home/demo)
+2022-07-27 02:25:54 [org.springframework.boot.SpringApplication:634] - No active profile set, falling back to 1 default profile: "default"
+2022-07-27 02:25:56 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 8686 (http)
+2022-07-27 02:25:56 [org.apache.juli.logging.DirectJDKLog:173] - Initializing ProtocolHandler ["http-nio-8686"]
+2022-07-27 02:25:56 [org.apache.juli.logging.DirectJDKLog:173] - Starting service [Tomcat]
+2022-07-27 02:25:56 [org.apache.juli.logging.DirectJDKLog:173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-27 02:25:56 [org.apache.juli.logging.DirectJDKLog:173] - Initializing Spring embedded WebApplicationContext
+2022-07-27 02:25:56 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 2167 ms
+2022-07-27 02:25:57 [org.apache.juli.logging.DirectJDKLog:173] - Starting ProtocolHandler ["http-nio-8686"]
+2022-07-27 02:25:57 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 8686 (http) with context path '/demo'
+2022-07-27 02:25:57 [org.springframework.boot.StartupInfoLogger:61] - Started DemoApplication in 4.421 seconds (JVM running for 5.24)

@@ -1,0 +1,27 @@
+server: #项目服务相关的配置
+  port: 8686 #端口
+  servlet:
+    context-path: /demo #项目访问的路径   http:://{ip}+':'+{port}+'/'+{path} 这三个就是这里的配置了，path可以多层级（/demo/demo1/demo2）,也可以不写，等于访问127.0.0.1:8080/就是项目根路径了
+  tomcat: #tomcat相关的参数设置，比如下面设置了 post的最大接受大小以及最大http header的大小
+    max-http-form-post-size: 31457280
+  max-http-header-size: 30MB
+spring:
+  datasource: #数据源的基本配置，地址、驱动、账号密码
+    url: jdbc:postgresql://postgis:5432/demo?reWriteBatchedInserts=true
+    username: tluser
+    password: root@123
+    driver-class-name: org.postgresql.Driver
+    type: com.zaxxer.hikari.HikariDataSource  #因为pom文件用了HikariCP的连接池（负责管理连接线程），这里指定下接管的DataSource文件
+    hikari:
+      idle-timeout: 10000   #最大等待超时
+      maximum-pool-size: 5  #连接池最大连接数
+      auto-commit: true #
+      pool-name: HikariCP #连接池名称
+      connection-timeout: 30000 #连接超时时间
+      connection-test-query: SELECT 1 #测试连接语句
+      validation-timeout: 2000  #验证超时时间
+      max-lifetime: 60000   #最大存活时间
+mybatis-plus: #myBatisPlus插件的线管设置，这里主要开启sql日志
+  configuration:
+    map-underscore-to-camel-case: false # 数据库下划线自动转驼峰标示关闭
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
