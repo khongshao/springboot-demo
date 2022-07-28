@@ -7,9 +7,9 @@ server: #项目服务相关的配置
   max-http-header-size: 30MB
 spring:
   datasource: #数据源的基本配置，地址、驱动、账号密码
-    url: jdbc:postgresql://postgis:5432/demo?reWriteBatchedInserts=true
-    username: tluser
-    password: root@123
+    url: jdbc:postgresql://db_postgis:5432/demo?reWriteBatchedInserts=true
+    username: root
+    password: 123456
     driver-class-name: org.postgresql.Driver
     type: com.zaxxer.hikari.HikariDataSource  #因为pom文件用了HikariCP的连接池（负责管理连接线程），这里指定下接管的DataSource文件
     hikari:
